@@ -6,7 +6,6 @@ class Player:
     def __init__(self):
         self.score = 0
         self.tempscore = 0
-        self.turn_order = 0
         self.turn = False
 
     def turnlogic(self):
@@ -41,7 +40,6 @@ class AI:
     def __init__(self):
         self.score = 0
         self.tempscore = 0
-        self.turn_order = 0
         self.turn = False
 
     def turnlogic(self):
